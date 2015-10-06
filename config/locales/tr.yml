@@ -1,0 +1,30 @@
+en:
+  devise_token_auth:
+    sessions:
+      not_confirmed: " %{email} adresinize doğrulama e-postası gönderilmiştir. Hesabınızın aktif hale gelebilmesi için gönderilen e-postadaki talimatları yerine getiriniz."
+      bad_credentials: "Giriş için sağladığınız bilgiler geçersiz. Lütfen tekrar deneyiniz."
+      not_supported: "sign_in için GET methodu desteklenmemektedir. Lütfen POST /sign_in kullanınız."
+      user_not_found: "Kullanıcı girişi yapılmadı veya kullanıcı bulunamadı."
+    token_validations:
+      invalid: "Giriş için sağladığınız bilgiler geçersiz"
+    registrations:
+      missing_confirm_success_url: "Eksik `confirm_success_url` parametreleri."
+      redirect_url_not_allowed: "%{redirect_url} adresine erişim engellendi."
+      email_already_exists: "%{email} adresi zaten sistemde kayıtlı."
+      account_with_uid_destroyed: "%{uid} kimlikli hesap başarı ile silindi."
+      account_to_destroy_not_found: "Silinecek hesap bulunamadı."
+      user_not_found: "Kullanıcı bulunamadı."
+    passwords:
+      missing_email: "Geçerli bir e-mail adresi sağlamak zorundasınız."
+      missing_redirect_url: "Yönlendirme adresi eksik."
+      not_allowed_redirect_url: "%{redirect_url} adresine yönlendirme işlemine izin verilmiyor."
+      sended: "%{email} adresinize gönderilen e-posta ile şifre değişikliği işleminizi gerçekleştirebilirsiniz."
+      user_not_found: "'%{email}' email adresi sistemde kayıtlı değildir."
+      password_not_required: "Bu hesap şifre içermemektedir. Giriş yapmak için %{provider} hesabını kullanınız."
+      missing_passwords: '"Şifre" ve "Şifre Tekrarı" kutucuklarını doldurunuz.'
+      successfully_updated: "Şifreniz başarı ile güncellenmiştir."
+
+  errors:
+    validate_sign_up_params: "Lütfen yeni hesap oluşturmak için gerekli verileri doğru formatta gönderiniz."
+    validate_account_update_params: "Lütfen hesabı güncellemek için gerekli verileri doğru formatta gönderiniz."
+    not_email: "geçerli bir e-mail değil"
